@@ -1,0 +1,17 @@
+
+spring:
+  profiles:
+    active:
+      - dev
+  application:
+    name: My-BookSharingApp
+
+  email:
+    confirmationUrl: http://localhost:4200/activate-account
+    emailSending: neerajgyawali778@gmail.com
+  secretKey: ASKLJFLASFKLALJKASJFKALFJ834938FIAOJF893FIOSJD3KASDLDFKLFJKL
+
+server:
+  servlet:
+    context-path: /api/v1
+  port: 8088
